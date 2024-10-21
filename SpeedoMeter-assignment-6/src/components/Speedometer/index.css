@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto;
+}
+.image{
+    height: 350px;
+    width: 800px;
+}
+
+.buttondiv{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.middle{
+    font-size: 60px;
+    color: rgb(233, 230, 230);
+    font-weight: 100px;
+    margin-bottom: 50px;
+}
+.button1{
+    height: 50px;
+    width:150px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.text{
+    font-size: 22px;
+    color:#cbd5e1;
+    font-weight: 100;
+}
+.button2{
+    height: 50px;
+    width:150px;
+    border: 0.5px solid #cbd5e1;
+    background-color: black;
+    color: #cbd5e1;
+    font-size: 20px;
+    border-radius: 10px;
+}

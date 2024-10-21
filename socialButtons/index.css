@@ -1,0 +1,55 @@
+/* Write your code here. */
+
+.container{
+   background-image: url("https://images.unsplash.com/photo-1482385916434-814664df9c5b?q=80&w=1393&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-size: cover;
+   min-height: 100vh;
+}
+.first{
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    font-family: "Bree Serif";
+    margin-bottom: 20px;
+}
+
+.mainpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80vh;
+    height: 80vh;
+    margin-left: 250px;
+}
+
+.like{
+    color :white;
+    background-color: rgb(226, 226, 152);
+}
+
+.comment{
+    background-color: white;
+    color:rgb(40, 40, 70);
+}
+
+.share{
+    background-color: blue;
+    color: white;
+}
+
+.button{
+    width: 100px;
+    margin-left: 30px;
+    border: none;
+    font-family: 'Roboto';
+    border-radius: 14px;
+    height: 40px;
+}
